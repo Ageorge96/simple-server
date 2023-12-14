@@ -1,10 +1,12 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def get_index():
-    return 'Hello, world!'
+    return "<a href=\"/response\">Hello, world!</a>"
+
+
 
 
 if __name__ == '__main__':
