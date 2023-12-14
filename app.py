@@ -8,7 +8,7 @@ def get_index():
 
 @app.route('/response')
 def get_response():
-    return "Hey, Andre!"
+    return "Hey, Andre! How's you day?"
 
 
 
