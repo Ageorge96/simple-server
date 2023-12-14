@@ -6,6 +6,9 @@ app = Flask(__name__)
 def get_index():
     return "<a href=\"/response\">Hello, world!</a>"
 
+@app.route('/response')
+def get_response():
+    return "Hey, Andre!"
 
 
 
